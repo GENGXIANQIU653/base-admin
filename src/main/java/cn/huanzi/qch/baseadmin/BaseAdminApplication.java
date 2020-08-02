@@ -35,7 +35,10 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.List;
 
-@EnableAsync//开启异步调用
+/**
+ * @author gxq
+ */
+@EnableAsync
 @SpringBootApplication
 public class BaseAdminApplication {
 
